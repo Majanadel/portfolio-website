@@ -94,3 +94,7 @@ a:focus {
   text-transform: uppercase;
   border: 2px solid #F16B48;
 }
+.button.contact:hover {
+  background-color: #F38D79;
+  color: #ffffff;
+}
