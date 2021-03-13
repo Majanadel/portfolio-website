@@ -48,16 +48,16 @@ img {
 }
 
 a {
-  color: #F8BCB2;
+  color: #F38D79;
   text-decoration: none; /* No underlining */
 }
 a:hover {
-  color: #F38D79;
+  color: #F16B48;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
 a:visited { /* visited link */
-  color: #F16B48;
+  color: #F8BCB2;
 }
 a:active { /* selected link */
   color: #F1D2CD;
@@ -65,7 +65,7 @@ a:active { /* selected link */
 
 a:hover,
 a:focus {
-  color: #F38D79;
+  color: #F16B48;
   text-decoration: underline;
 }
 
