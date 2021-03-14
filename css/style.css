@@ -6,7 +6,6 @@ Secondary Color (Very soft red) : #F8BCB2 ;
 Secondary Color (Light grayish red) : #F1D2CD ;
 Secondary Color (Light grayish red) : #F1D2CD ;
 */
-
 * {
   box-sizing: border-box;
 }
@@ -24,11 +23,12 @@ body {
 }
 
 header {
-  background-color: #000000;
+  background-color: #F16B48;
   padding: 10px;
   margin: 10px;
   border-bottom: 3px solid #4a4a4a;
   position: relative;
+  text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -61,13 +61,13 @@ img {
 }
 
 a {
-  color: #F38D79;
+  color: #ffffff;
   text-decoration: none;
   /* No underlining */
 }
 
 a:hover {
-  color: #F16B48;
+  color: #000000;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
@@ -126,29 +126,89 @@ a:focus {
 }
 
 /* Layout styling */
-
 .container {
   padding: 0 20px;
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
 
-#projects .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+#projects .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #F16B48;
+}
 
 #hero h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
+}
+
+#hero p {
+  text-align: center;
+  /* Centers text */
 }
 
 #project h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #profile h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 100px;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+}
+
+nav>ul>li>a:hover,
+nav>ul>li>a:focus {
+  color: #F1D2CD ;
+}
+
+nav>ul>li>a:active,
+nav>ul>li>a:visited {
+  text-decoration: underline;
+}
+
+
+
+#hero {
+  color: #ffffff ;
+}
+
+#hero {
+  background-color: #F16B48;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+main {
+  padding-top: 133px;
 }
