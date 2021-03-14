@@ -144,3 +144,11 @@ a:focus {
 #project h1 {
   text-align: center; /* Centers text */
 }
+
+#profile h1 {
+  text-align: center; /* Centers text */
+}
+
+.logo {
+  max-width: 250px;
+}
