@@ -6,6 +6,11 @@ Secondary Color (Very soft red) : #F8BCB2 ;
 Secondary Color (Light grayish red) : #F1D2CD ;
 Secondary Color (Light grayish red) : #F1D2CD ;
 */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Oswald', sans-serif;
@@ -118,4 +123,10 @@ a:focus {
 .button.contact:hover {
   background-color: #F16B48;
   color: #ffffff;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 20px;
 }
