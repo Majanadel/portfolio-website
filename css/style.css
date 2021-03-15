@@ -54,20 +54,20 @@ h4 {
   font-size: 1.35em;
   font-weight: 300;
 }
-}
+
 
 img {
   width: 100%;
 }
 
 a {
-  color: #ffffff;
+  color: #F38D79;
   text-decoration: none;
   /* No underlining */
 }
 
 a:hover {
-  color: #000000;
+  color: #F16B48;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
@@ -89,9 +89,10 @@ a:focus {
 }
 
 .button {
+  font-family: 'Roboto', sans-serif;
   display: inline-block;
   background-color: #F16B48;
-  color: #000000;
+  color: #ffffff;
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
@@ -105,6 +106,7 @@ a:focus {
   opacity: 0.5;
   /* Reduces the opacity of the button to 50% */
   text-decoration: none;
+  color: #ffffff
 }
 
 .button.contact:active {
@@ -188,7 +190,7 @@ nav>ul>li>a {
 
 nav>ul>li>a:hover,
 nav>ul>li>a:focus {
-  color: #F1D2CD ;
+  color: #F1D2CD;
 }
 
 nav>ul>li>a:active,
@@ -196,10 +198,8 @@ nav>ul>li>a:visited {
   text-decoration: underline;
 }
 
-
-
 #hero {
-  color: #ffffff ;
+  color: #ffffff;
 }
 
 #hero {
@@ -209,6 +209,9 @@ nav>ul>li>a:visited {
   width: 100%;
 }
 
+#social {
+  padding-top: 20px;
+}
 main {
   padding-top: 133px;
 }
