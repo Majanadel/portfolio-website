@@ -98,7 +98,7 @@ a:focus {
   border-radius: 3px;
   border-bottom: 2px solid #F1D2CD;
   /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition: 0.4s opacity;
 }
 
 .button:hover {
@@ -125,6 +125,14 @@ a:focus {
   background-color: #F16B48;
   color: #ffffff;
 }
+
+*image {
+  width 100%;
+  max-width 100%;
+  height: auto;
+}
+
+
 
 /* Layout styling */
 .container {
@@ -159,6 +167,10 @@ a:focus {
 #profile h1 {
   text-align: center;
   /* Centers text */
+}
+
+#resume {
+  animation-fill-mode: forwards;
 }
 
 .logo {
@@ -258,7 +270,9 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
 
-  #about-page h3 { margin-top: 0;}
+  #about-page h3 {
+    margin-top: 0;
+  }
 }
 
 /* ==============================
@@ -266,12 +280,10 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   .container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* ==============================
