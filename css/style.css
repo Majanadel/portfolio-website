@@ -285,7 +285,9 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {}
 
-@keyframes {
+
+
+@keyframes color-change {
   0% {
     fill: #f15754;
   }
@@ -309,4 +311,17 @@ X-large devices (1440px or larger)
   animation-name: color-change;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,0);}
+}
+
+.cls-3 {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
