@@ -126,13 +126,11 @@ a:focus {
   color: #ffffff;
 }
 
-*image {
-  width 100%;
-  max-width 100%;
+img {
+  width: 100%;
+  max-width: 100%;
   height: auto;
 }
-
-
 
 /* Layout styling */
 .container {
@@ -224,10 +222,6 @@ nav>ul>li>a:visited {
   padding-top: 20px;
 }
 
-main {
-  padding-top: 133px;
-}
-
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -290,3 +284,29 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {}
+
+@keyframes {
+  0% {
+    fill: #f15754;
+  }
+
+  25% {
+    fill: #ffbf00;
+  }
+
+  50% {
+    fill: #ffa500;
+  }
+
+  100% {
+    fill: #228b22;
+  }
+}
+
+/* The element to apply the animation to */
+.cls-4 {
+  fill: #f15754;
+  animation-name: color-change;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
