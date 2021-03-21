@@ -28,7 +28,6 @@ header {
   margin: 10px;
   border-bottom: 3px solid #4a4a4a;
   position: relative;
-  text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -173,6 +172,10 @@ img {
 
 .logo {
   max-width: 150px;
+}
+
+.icon {
+
 }
 
 nav {
