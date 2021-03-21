@@ -174,9 +174,7 @@ img {
   max-width: 150px;
 }
 
-.icon {
-
-}
+.icon {}
 
 nav {
   display: inline-block;
@@ -188,7 +186,6 @@ nav>ul {
   list-style-type: none;
   padding: 0;
 }
-
 
 nav>ul>li>a {
   padding: 0 15px;
@@ -205,6 +202,21 @@ nav>ul>li>a:focus {
 nav>ul>li>a:active,
 nav>ul>li>a:visited {
   text-decoration: underline;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
 }
 
 #hero {
@@ -238,7 +250,7 @@ Medium devices (640px and larger)
   nav>ul>li {
     display: inline-block;
   }
-  
+
   body {
     font-size: 18px;
   }
@@ -270,6 +282,14 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   #about-page h3 {
