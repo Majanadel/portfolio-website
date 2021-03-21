@@ -189,9 +189,6 @@ nav>ul {
   padding: 0;
 }
 
-nav>ul>li {
-  display: inline-block;
-}
 
 nav>ul>li>a {
   padding: 0 15px;
@@ -238,6 +235,10 @@ Medium devices (640px and larger)
     max-width: 100px;
   }
 
+  nav>ul>li {
+    display: inline-block;
+  }
+  
   body {
     font-size: 18px;
   }
