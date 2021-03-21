@@ -10,6 +10,10 @@ Secondary Color (Light grayish red) : #F1D2CD ;
   box-sizing: border-box;
 }
 
+main {
+  padding-top: 2px;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Oswald', sans-serif;
@@ -24,10 +28,10 @@ body {
 
 header {
   background-color: #F16B48;
-  padding: 10px;
   margin: 10px;
   border-bottom: 3px solid #4a4a4a;
   position: relative;
+  padding: 10px 0 4px;
 }
 
 h1, h2, h3, h4 {
@@ -176,15 +180,10 @@ img {
 
 .icon {}
 
-nav {
-  display: inline-block;
-  width: 100%;
-  position: relative;
-}
-
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -218,6 +217,24 @@ nav>ul>li>a:visited {
   top: 2px;
   font-size: 20px;
   padding-right: 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
 
 #hero {
@@ -291,6 +308,10 @@ Medium devices (640px and larger)
 
   .navtoggle li:last-child {
     display: none;
+  }
+
+  nav>ul {
+    margin: 1em 0;
   }
 
   #about-page h3 {
