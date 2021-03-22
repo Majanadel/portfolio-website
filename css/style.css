@@ -4,7 +4,6 @@ Secondary Color (Very soft orange) : #FCBA99 ;
 Secondary Color (Soft red) : #F38D79 ;
 Secondary Color (Very soft red) : #F8BCB2 ;
 Secondary Color (Light grayish red) : #F1D2CD ;
-Secondary Color (Light grayish red) : #F1D2CD ;
 */
 * {
   box-sizing: border-box;
@@ -63,7 +62,7 @@ img {
 }
 
 a {
-  color: #F38D79;
+  color: #ffffff;
   text-decoration: none;
   /* No underlining */
 }
@@ -76,7 +75,7 @@ a:hover {
 
 a:visited {
   /* visited link */
-  color: #F8BCB2;
+  color: #F1D2CD;
 }
 
 a:active {
@@ -175,7 +174,7 @@ img {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 50px;
 }
 
 .icon {}
