@@ -121,13 +121,13 @@ a.button {
 
 .button.contact {
   background-color: transparent;
-  color: #FF9870;
+  color: #0098bd;
   text-transform: uppercase;
-  border: 2px solid #FF9870;
+  border: 2px solid #0098bd;
 }
 
 .button.contact:hover {
-  background-color: #FF9870;
+  background-color: #00648a;
   color: #ffffff;
 }
 
