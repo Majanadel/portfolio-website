@@ -103,10 +103,10 @@ a:focus {
 }
 
 .button:hover {
-  opacity: 0.5;
+  opacity: 0.3;
   /* Reduces the opacity of the button to 50% */
   text-decoration: none;
-  color: #ffffff
+  color: #000000
 }
 
 .button.contact:active {
