@@ -116,6 +116,10 @@ a:focus {
   text-decoration: underline;
 }
 
+a.button {
+  color: #ffffff;
+}
+
 .button.contact {
   background-color: transparent;
   color: #FF9870;
