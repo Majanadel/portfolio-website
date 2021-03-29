@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  background-color: #FF9870;
+  background-color: #ffffff;
   margin: 10px;
   border-bottom: 3px solid #00648A;
   position: relative;
@@ -245,7 +245,7 @@ nav>ul>li>a:visited {
 }
 
 #hero {
-  background-color: #00648A;
+  background-color: #0098BD;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
