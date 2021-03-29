@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  background-color: #F16B48;
+  background-color: #FF9870;
   margin: 10px;
   border-bottom: 3px solid #4a4a4a;
   position: relative;
@@ -62,43 +62,43 @@ img {
 }
 
 a {
-  color: #FCBA99;
+  color: #0098BD;
   text-decoration: none;
   /* No underlining */
 }
 
 a:hover {
-  color: #F16B48;
+  color: #00648A;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
 a:visited {
   /* visited link */
-  color: #F1D2CD;
+  color: #69a1a4;
 }
 
 a:active {
   /* selected link */
-  color: #F1D2CD;
+  color: #69a1a4;
 }
 
 a:hover,
 a:focus {
-  color: #F16B48;
+  color: #00648a;
   text-decoration: underline;
 }
 
 .button {
   font-family: 'Roboto', sans-serif;
   display: inline-block;
-  background-color: #F16B48;
+  background-color: #0098BD;
   color: #ffffff;
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #F1D2CD;
+  border-bottom: 2px solid #00648A;
   /* width of the border, type, color */
   transition: 0.4s opacity;
 }
@@ -111,20 +111,20 @@ a:focus {
 }
 
 .button.contact:active {
-  background-color: #F16B48;
+  background-color: #0098BD;
   color: #ffffff;
   text-decoration: underline;
 }
 
 .button.contact {
   background-color: transparent;
-  color: #F16B48;
+  color: #0098BD;
   text-transform: uppercase;
-  border: 2px solid #F16B48;
+  border: 2px solid #00648A;
 }
 
 .button.contact:hover {
-  background-color: #F16B48;
+  background-color: #00648A;
   color: #ffffff;
 }
 
@@ -146,7 +146,7 @@ img {
 
 #projects .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #F16B48;
+  border-bottom: 1px solid #0098BD;
 }
 
 #hero h1 {
@@ -189,12 +189,12 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #000000;
+  color: #00648A;
 }
 
 nav>ul>li>a:hover,
 nav>ul>li>a:focus {
-  color: #F1D2CD;
+  color: #69a1a4;
 }
 
 nav>ul>li>a:active,
@@ -237,11 +237,11 @@ nav>ul>li>a:visited {
 }
 
 #hero {
-  color: #ffffff;
+  color: #00648A;
 }
 
 #hero {
-  background-color: #F16B48;
+  background-color: #ffffff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
