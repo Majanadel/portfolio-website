@@ -339,25 +339,25 @@ X-large devices (1440px or larger)
 
 @keyframes color-change {
   0% {
-    fill: #f15754;
+    color: #f15754;
   }
 
   25% {
-    fill: #ffbf00;
+    color: #ffbf00;
   }
 
   50% {
-    fill: #ffa500;
+    color: #ffa500;
   }
 
   100% {
-    fill: #228b22;
+    color: #228b22;
   }
 }
 
 /* The element to apply the animation to */
 .cls-4 {
-  fill: #f15754;
+  color: #f15754;
   animation-name: color-change;
   animation-duration: 4s;
   animation-iteration-count: infinite;
