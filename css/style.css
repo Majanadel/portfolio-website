@@ -61,13 +61,13 @@ img {
 }
 
 a {
-  color: #FF9870;
+  color: #009870;
   text-decoration: none;
   /* No underlining */
 }
 
 a:hover {
-  color: #0098BD;
+  color: #FF9870;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
@@ -84,7 +84,7 @@ a:active {
 
 a:hover,
 a:focus {
-  color: #0098BD;
+  color: #FF9870;
   text-decoration: underline;
 }
 
