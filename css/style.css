@@ -107,7 +107,7 @@ a:focus {
   opacity: 0.5;
   /* Reduces the opacity of the button to 50% */
   text-decoration: none;
-  color: #00648A
+  color: #ffffff
 }
 
 .button.contact:active {
