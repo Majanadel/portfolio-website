@@ -28,7 +28,7 @@ body {
 header {
   background-color: #FF9870;
   margin: 10px;
-  border-bottom: 3px solid #4a4a4a;
+  border-bottom: 3px solid #00648A;
   position: relative;
   padding: 10px 0 4px;
 }
@@ -107,7 +107,7 @@ a:focus {
   opacity: 0.5;
   /* Reduces the opacity of the button to 50% */
   text-decoration: none;
-  color: #ffffff
+  color: #00648A
 }
 
 .button.contact:active {
@@ -124,11 +124,11 @@ a.button {
   background-color: transparent;
   color: #FF9870;
   text-transform: uppercase;
-  border: 2px solid #00648A;
+  border: 2px solid #FF9870;
 }
 
 .button.contact:hover {
-  background-color: #69a1a4;
+  background-color: #00648A;
   color: #ffffff;
 }
 
@@ -193,12 +193,12 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #00648A;
+  color: #FF9870;
 }
 
 nav>ul>li>a:hover,
 nav>ul>li>a:focus {
-  color: #69a1a4;
+  color: #C8D8DA;
 }
 
 nav>ul>li>a:active,
@@ -241,11 +241,11 @@ nav>ul>li>a:visited {
 }
 
 #hero {
-  color: #00648A;
+  color: #ffffff;
 }
 
 #hero {
-  background-color: #ffffff;
+  background-color: #00648A;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
