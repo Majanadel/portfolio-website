@@ -62,20 +62,20 @@ img {
 }
 
 a {
-  color: #0098BD;
+  color: #FF9870;
   text-decoration: none;
   /* No underlining */
 }
 
 a:hover {
-  color: #00648A;
+  color: #0098BD;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
 a:visited {
   /* visited link */
-  color: #69a1a4;
+  color: #00648A;
 }
 
 a:active {
@@ -85,7 +85,7 @@ a:active {
 
 a:hover,
 a:focus {
-  color: #00648a;
+  color: #0098BD;
   text-decoration: underline;
 }
 
@@ -93,12 +93,12 @@ a:focus {
   font-family: 'Roboto', sans-serif;
   display: inline-block;
   background-color: #0098BD;
-  color: #ffffff;
+  color: #C8D8DA;
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #00648A;
+  border-bottom: 2px solid #0098BD;
   /* width of the border, type, color */
   transition: 0.4s opacity;
 }
@@ -111,20 +111,20 @@ a:focus {
 }
 
 .button.contact:active {
-  background-color: #0098BD;
+  background-color: #FF9870;
   color: #ffffff;
   text-decoration: underline;
 }
 
 .button.contact {
   background-color: transparent;
-  color: #0098BD;
+  color: #FF9870;
   text-transform: uppercase;
   border: 2px solid #00648A;
 }
 
 .button.contact:hover {
-  background-color: #00648A;
+  background-color: #69a1a4;
   color: #ffffff;
 }
 
