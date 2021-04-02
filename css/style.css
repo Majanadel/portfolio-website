@@ -139,6 +139,7 @@ img {
 .portrait {
   width: 600px;
   height: auto;
+  align-content: center;
 }
 
 /* Layout styling */
