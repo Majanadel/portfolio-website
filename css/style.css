@@ -137,24 +137,13 @@ img {
 }
 
 
-.portrait {
-  width: 600px;
-  height: auto;
-  text-align: center;
-}
-
-.square {
-  width: 200px;
-  height: auto;
-  text-align: center;
-}
 
 .typewriter {
   overflow: hidden;
   border-right: .10em solid orange;
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: .15em; 
+  letter-spacing: .15em;
   animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -363,6 +352,18 @@ Medium devices (640px and larger)
 
   #about-page h3 {
     margin-top: 0;
+  }
+
+  .portrait {
+    width: 600px;
+    height: auto;
+    text-align: center;
+  }
+
+  .square {
+    width: 200px;
+    height: auto;
+    text-align: center;
   }
 }
 
