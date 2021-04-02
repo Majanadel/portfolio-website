@@ -136,11 +136,22 @@ img {
   height: auto;
 }
 
+
 .portrait {
   width: 600px;
   height: auto;
-  align: center;
+  text-align: center;
 }
+
+.square {
+  width: 400px;
+  height: auto;
+  text-align: center;
+}
+
+
+
+
 
 /* Layout styling */
 .container {
