@@ -136,6 +136,11 @@ img {
   height: auto;
 }
 
+.portrait {
+  width: 600px;
+  height: auto;
+}
+
 /* Layout styling */
 .container {
   padding: 0 20px;
