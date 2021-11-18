@@ -365,6 +365,12 @@ Medium devices (640px and larger)
     height: auto;
     text-align: center;
   }
+
+  .rectangle {
+    width: 300px;
+    height: auto;
+    text-align: center;
+  }
 }
 
 /* ==============================
