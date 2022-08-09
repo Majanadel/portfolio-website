@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Usability Research for RHNTC</title>
+  <link href="img/favicon/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/0c6737f2cb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- START HEADER SECTION -->
+  <header>
+    <!-- OPEN HEADER SECTION FOR LOGO AND MENU -->
+    <div class="container">
+      <!-- OPEN INNER CONTAINER -->
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html">
+          <img src="img/logo/majanadel_logo.png" alt="Logo" class="logo" /><!-- LOGO IMAGE -->
+        </a>
+
+        <nav>
+          <!-- OPEN NAVIGATION SECTION -->
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li><!-- MENU LINK -->
+            <li><a href="about.html" target="_blank">About</a></li><!-- MENU LINK -->
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li><!-- MENU LINK -->
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav><!-- END NAVIGATION -->
+      </div>
+    </div><!-- END NAVIGATION -->
+  </header><!-- END INNER CONTAINER -->
+  <!-- END OF HEADER -->
+
+  <!-- START MAIN CONTENT SECTION -->
+  <main>
+    <div id="hero">
+      <div class="container">
+        <h1>Usability Research for RHNTC</h1>
+      </div>
+    </div>
+    <div class="container">
+      <ul>
+        <li>Role: UX Researcher</li>
+        <li>Client: Reproductive Health National Training Center</li>
+        <li>Tools used: Miro, Optimal Workshop, Zoom</li>
+        <li>Timeline: 3 Months</li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <picture>
+        <source srcset="img/rhntc/usability_research_rhntc@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/usability_research_rhntc@2x.png" alt="Usability Testing RHNTC">
+      </picture>
+    </div>
+    <div class="container">
+      <h2>Executive Summary</h2>
+      <p>Usability testing was conducted by Maja Nadel, UX Designer and researcher, collaborating with members of the JSI Knowledge Management team. Testing was performed remotely from January 31st, 2022, to February 11th, 2022. The main objectives
+        of the test were to assess the overall usability of RHNTC interface design and information architecture, identify the pain points, and outline opportunities to create a more seamless user experience. This was the first-time usability testing
+        was performed on the redesigned RHNTC website released in May 2021. 
+Considering the current state of the global pandemic, we did all the usability testing interviews remotely. JSI team recruited 11 participants for individual testing; 6 were Title X grantees/subrecipients, and 5 were TPP
+        grantees/sub-recipients. The sessions comprised a short pre-test questionnaire, three short tasks, 6-7 scenario tasks tailored to specific OPA grantee groups – Title X or TPP, and a post-test questionnaire that lasted approximately 45 minutes
+        each. 
+After the pilot test with members of the JSI team and the first round of the interviews, we made numerous changes to scenario tasks that made the test more effective. 
+The study uncovered seven significant findings, primarily related to the functionality of the search feature, filtering search results, identifying relevant material, finding help on the website, training lists usage, location, and the
+        presentation of information. 
+This report summarizes qualitative and quantitative data and outlines the tasks used during the sessions, participant feedback, task completion rates, time on task, usability findings, and recommendations for improvements. 
+      </p>
+
+      <h2>Usability Testing Process</h2>
+      <picture>
+        <source srcset="img/rhntc/process_rhntc@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/process_rhntc@2x.png" alt="Usability Testing process">
+      </picture>
+      <h2>Methodology</h2>
+      <h3>Characterizing Users & Recruitment</h3>
+      <p>RHNTC has a broad range of users, and for this test, we did not require a detailed screening process. The single requirement to participate in this study was that the participants are either Title X or TPP grantees or subrecipients. They
+        ranged in age, occupation, and website activity but shared connection to OPA. Participants were recruited through the email that JSI Knowledge Team sent. JSI offered a nominal gift certificate to all selected participants to encourage
+        participation. Participants who agreed to participate in our testing received all the testing details beforehand to be ready for on the day of actual testing. There were eleven participants in total.</p>
+      <h3>Participant’s Profiles</h3>
+      <p>From the data gathered, we discerned that our pool of testers had 6 (54.5%) users associated with the Title X program and five users related to the TPP program (45.5%); users in different age ranges, the majority between 45 – 55 years of age
+        (36.4%), following by users 25 – 35 years of age (27.3%), 35 – 45 years (18.2%) and 55 – 65 years (18.2%). Furthermore, all the participants were women (100%). In addition, some participants had a lot of experience with the website (63.6%),
+        some were mid-level experienced (9.1%), and users who had never used rhntc.org before (27.3%).</p>
+      <picture>
+        <source srcset="img/rhntc/participant_table@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/participant_table@2x.png" alt="Participant table">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/participant_graph@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/participant_graph@2x.png" alt="Participant graph">
+      </picture>
+      <h3>Testing Materials</h3>
+      <p>Before testing, we created a set of materials to ensure that we collected the correct data and to ensure that team ethically conducted this testing. Each participant received an email containing detailed information about the testing and a
+        copy of the Consent form that will allow us to record the session and use the recording to gather the insights from the testing. In addition, to ensure confident facilitation of the interview session, we created a script for the moderator.
+        The script provides that the moderator says the same thing to each participant throughout the testing session. The script included a transparent explanation of the study’s intentions, detailed procedural intentions, described thinking aloud,
+        task details, and a participant debrief.</p>
+      <h3>Tasks</h3>
+      <p>The remote usability tests were oriented around a series of questionnaires and tasks. The tasks were intended to replicate common scenarios a user would encounter while navigating the RHNTC website while touching on significant concerns that
+        our team recorded from some user feedback on the website. All the users started with a pre-test questionnaire which included some of the background questions, and then we continued with three short tasks. As this testing involved two
+        different groups of users – Title X and TPP grantees and subrecipients – we had to adjust the main scenario tasks dependent on the group, to capture the needs of these users. Finally, at the end of the testing, we conducted a short post-test
+        questionnaire to determine what users thought about this testing, the website, and how they rated the overall website's usability. </p>
+      <h3>Pre-Test and Post-Test Questionnaire </h3>
+      <p>Before we started with the main part of our testing, we asked a few questions to our participants to find out some general user characteristics that we didn't collect during the recruitment process. The post-Test questionnaire came after the
+        user completed all the scenario tasks. This part was primarily focused on the general experiential feedback. All the questions were open-ended.</p>
+
+      <h2>Analyze</h2>
+      <p>Once we finished usability testing sessions, it was time to evaluate the findings by extracting the data from the qualitative data, transcripts, and observations. Every session was reviewed one by one. I was looking for issues participants
+        encountered while on the task, actions they took to solve the problem, comments both positive and negative they made during the interview. I added all the observations to Miro whiteboards and Rainbow Spreadsheet, where I was able to record
+        behavioral patterns presented by research participants.
+
+        Every time a participant would exhibit a new note-worthy behavior, I wrote the observation in the left-most column of the rainbow sheet. Each participant was assigned a color and a label (I used the labels P1 to P11, which stand for
+        participants 1 to 11). If a participant would perform a recorded behavior (or observation), the participant's cell was filled in with the participant's assigned color.
+        Once I had filled out the rainbow sheet, I was able to quickly scan it to identify the most common behaviors among test participants.</p>
+      <h3>Miro Whiteboard</h3>
+      <picture>
+        <source srcset="img/rhntc/miro_screenshot@1x.jpg" media="(max-width:767px)">
+        <img src="img/rhntc/miro_screenshot@2x.jpg" alt="Miro whiteboard">
+      </picture>
+      <h3>Rainbow Spreadsheet</h3>
+      <picture>
+        <source srcset="img/rhntc/rainbow_spreadsheet@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/rainbow_spreadsheet@2x.png" alt="Rainbow Spreadsheet">
+      </picture>
+      <h2>Results</h2>
+      <h3>Finding 1</h3>
+      <picture>
+        <source srcset="img/rhntc/finding_1_description@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding_1_description@2x.png" alt="Finding 1">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding1@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding1@2x.png" alt="Finding 1 images">
+      </picture>
+      <h3>Finding 2</h3>
+      <picture>
+        <source srcset="img/rhntc/finding_2_description@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding_2_description@2x.png" alt="Finding 2">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding2@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding2@2x.png" alt="Finding 2 images">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding2_1@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding2_1@2x.png" alt="Finding 2 images">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding2_2@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding2_2@2x.png" alt="Finding 2 images">
+      </picture>
+      <h3>Finding 3</h3>
+      <picture>
+        <source srcset="img/rhntc/finding_3.1_description@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding_3.1_description@2x.png" alt="Finding 3">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding3_1@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding3_1@2x.png" alt="Finding 3 images">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding_3.2_description@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding_3.2_description@2x.png" alt="Finding 3">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding3_2@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding3_2@2x.png" alt="Finding 3 images">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding3_3@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding3_3@2x.png" alt="Finding 3 images">
+      </picture>
+      <h3>Finding 4</h3>
+      <picture>
+        <source srcset="img/rhntc/finding_4_description@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding_4_description@2x.png" alt="Finding 4">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding4@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding4@2x.png" alt="Finding 4 images">
+      </picture>
+      <h3>Finding 5</h3>
+      <picture>
+        <source srcset="img/rhntc/finding_5_description@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding_5_description@2x.png" alt="Finding 5">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding5@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding5@2x.png" alt="Finding 5 images">
+      </picture>
+      <h3>Finding 6</h3>
+      <picture>
+        <source srcset="img/rhntc/finding_6_description@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding_6_description@2x.png" alt="Finding 6">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding6@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding6@2x.png" alt="Finding 6 images">
+      </picture>
+      <picture>
+        <source srcset="img/rhntc/finding6_2@1x.png" media="(max-width:767px)">
+        <img src="img/rhntc/finding6_2@2x.png" alt="Finding 6 images">
+      </picture>
+
+      <h2>Takeaways</h2>
+      <p>Several factors may have affected the results of the usability test. It's important to remember that people bring their own experiences and biases into a test without realizing that they might color their impressions. Some of the factors I
+        noticed in our usability testing: </p>
+      <ul>
+        <li>The sample size may not be representative of all people that may use the product</li>
+        <li>While moderation began with a set agenda, questions and tasks administered varied from participant to participant.</li>
+        <li>Human error and misinterpretations of qualitative feedback affected the results to slight but varying degrees.</li>
+        <li>A series of common website bugs and errors occurred </li>
+      </ul>
+
+
+  </main>
+
+
+
+  <!-- For the footer  -->
+  <footer id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>
+        Do you like my work and want to discuss opportunities? Please get in touch. Call: <a href="tel:+164685851021">+164685851021</a> or Skype me at <a href="skype:live:nadelmaya5">majanadel</a>. Prefer sending an email?
+      </p>
+      <div>
+        <a href="mailto:nadelmaya5@gmail.com" class="button contact">Send me an email</a>
+      </div>
+      <div id="social">
+        <div class="container">
+          <a href="https://www.linkedin.com/in/maja-nadel-592330a/" target="_blank">
+            <svg height="56.693px" id="Layer_1" style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="67px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path
+                d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z"
+                style="fill-rule:evenodd;clip-rule:evenodd;fill:#007AB9;" />
+            </svg>
+          </a>
+          <a href="https://www.behance.net/majanadel" target="_blank">
+            <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g>
+                <path d="M38.031,27.257c-3.174,0-3.615,3.168-3.615,3.168h6.748C41.164,30.425,41.207,27.257,38.031,27.257z" />
+                <path d="M22.721,30.425h-5.982v5.492h5.296c0.09,0,0.225,0.002,0.383,0c0.852-0.02,2.467-0.268,2.467-2.67   C24.885,30.396,22.721,30.425,22.721,30.425z" />
+                <path
+                  d="M28.348,5.101c-13.6,0-24.625,11.023-24.625,24.623c0,13.6,11.025,24.625,24.625,24.625   c13.598,0,24.623-11.025,24.623-24.625C52.971,16.125,41.945,5.101,28.348,5.101z M33.531,20.231h8.477v2.53h-8.477V20.231z    M29.246,33.503c0,6.271-6.525,6.064-6.525,6.064h-5.982h-0.175h-4.535V19.021h4.535h0.175h5.982c3.248,0,5.812,1.794,5.812,5.47   c0,3.676-3.135,3.91-3.135,3.91C29.531,28.401,29.246,33.503,29.246,33.503z M45.104,33.167H34.457   c0,3.816,3.615,3.576,3.615,3.576c3.414,0,3.295-2.211,3.295-2.211h3.617c0,5.867-7.033,5.465-7.033,5.465   c-8.436,0-7.893-7.855-7.893-7.855s-0.008-7.893,7.893-7.893C46.268,24.249,45.104,33.167,45.104,33.167z" />
+                <path d="M24.174,24.81c0-2.137-1.453-2.137-1.453-2.137h-0.77h-5.212v4.584h5.611C23.318,27.257,24.174,26.946,24.174,24.81z" />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <p>Copyright Maja Nadel 2021</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
